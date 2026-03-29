@@ -63,7 +63,7 @@ router.get('/', async (req, res) => {
                             <!DOCTYPE html>
                             <html>
                             <head>
-                                <title>CASPER XD ULTRA | QR CODE</title>
+                                <title>YOBIH BUG BOT | QR CODE</title>
                                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
                                 <style>
                                     body {
@@ -229,35 +229,35 @@ router.get('/', async (req, res) => {
                         let b64data = compressedData.toString('base64');
                         const Sess = await sendButtons(Casper, Casper.user.id, {
             title: '',
-            text: 'CASPER-XD-ULTRA;' + b64data,
-            footer: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀꜱᴘᴇʀ ᴛᴇᴄʜ*`,
+            text: 'YOBIH BUG BOT;' + b64data,
+            footer: `> *POWERED BY DEV.MUNGAI YOBIH*`,
             buttons: [
                 { 
                     name: 'cta_copy', 
                     buttonParamsJson: JSON.stringify({ 
                         display_text: 'Copy Session', 
-                        copy_code: 'CASPER-XD-ULTRA;' + b64data 
+                        copy_code: 'YOBIH BUG BOT;' + b64data 
                     }) 
                 },
                 {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Visit Bot Repo',
-                        url: 'https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA'
+                        url: 'https://github.com/254100934193/Yobih-Bug-Bot'
                     })
                 },
                 {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Join WaChannel',
-                        url: 'https://whatsapp.com/channel/0029VbCK8vlKwqSSkFkC1l2k'
+                        url: 'https://whatsapp.com/channel/0029Vajp1HY4o7qSc0kE9o1g'
                     })
                 },
                 {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Join WaChannel 2',
-                        url: 'https://whatsapp.com/channel/0029Vb6XJQQHrDZi1RzKu90t'
+                        url: 'https://whatsapp.com/channel/0029Vajp1HY4o7qSc0kE9o1g'
                     })
                 }
             ]
