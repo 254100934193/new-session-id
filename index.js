@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/pairing', (req, res) => {
-  res.redirect('https://github.com/Casper-Tech-ke/pairing');
+  res.redirect('https://github.com/254100934193/new-session-id');
 });
 
 app.get('/projects', (req, res) => {
