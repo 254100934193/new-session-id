@@ -1,9 +1,9 @@
 {
     "name": "Pairing",
     "description": "Web Session Generator",
-    "logo": "https://files.catbox.moe/52699c.jpg",
-    "repository": "https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA",
-    "keywords": ["Casper-Tech"],
+    "logo": "https://photos.app.goo.gl/D88ygA9F18fUHofP6",
+    "repository": "https://github.com/254100934193/Yobih-Bug-Bot",
+    "keywords": ["Mungai-Yobih"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
